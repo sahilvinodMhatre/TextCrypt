@@ -1,3 +1,4 @@
+# TextCrypt
 ![Screenshot of the application](/screenshot/TextCrypt-UI.png)
 
 ## Requirements
