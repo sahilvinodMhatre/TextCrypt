@@ -22,6 +22,6 @@ For Windows:
 - While setting up the X server disable the access control 
 
 ```
-# Make sure you change the {IP} in the below command with your IP where the X server is running, the localhost/127.0.0.1 will not work as an IP. 
+# Make sure you change the {IP} in the below command with your IP where the X server is running, the localhost/127.0.0.1 will not work as an IP, for example - docker run -it -e DISPLAY=192.168.0.1:0 --net=host -v textcrypt:/data equin0x/textcrypt:1.0  
 docker run -it -e DISPLAY={IP}:0 --net=host -v textcrypt:/data equin0x/textcrypt:1.0
 ```
